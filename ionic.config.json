@@ -1,0 +1,7 @@
+{
+  "name": "Deck of Many Things",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
