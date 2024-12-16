@@ -11,7 +11,7 @@ ion-label {
 ion-item h2 {
   font-weight: 600;
   margin: 0;
-  
+
   /**
    * With larger font scales
    * the date/time should wrap to the next
@@ -52,15 +52,18 @@ ion-item ion-note.md {
 
 .dot {
   display: block;
-  height: 12px;
-  width: 12px;
+  height: 26px;
+  width: 26px;
   border-radius: 50%;
   align-self: start;
   margin: 16px 10px 16px 16px;
+  text-align: center;
+  display: grid;
+  align-items: center;
 }
 
 .dot-unread {
-  background: var(--ion-color-primary);
+  background: var(--ion-color-tertiary);
 }
 
 ion-footer ion-title {

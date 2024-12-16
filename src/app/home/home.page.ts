@@ -22,4 +22,9 @@ export class HomePage {
   getMessages(): Message[] {
     return this.data.getMessages();
   }
+
+  //Random() {
+  //  var rnd = Math.floor(Math.random() * 3);
+  //  console.log(rnd)
+  //}
 }
